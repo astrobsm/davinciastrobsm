@@ -1,0 +1,29 @@
+{
+    "name": "davinci-backend",
+    "version": "1.0.0",
+    "description": "Backend for Davinci Inventory and Sales Software for BonneSante Medicals",
+    "main": "server.js",
+    "scripts": {
+        "start": "node dist/bundle.js",
+        "build": "webpack --config webpack.config.js"
+    },
+    "keywords": [
+        "davinci",
+        "backend",
+        "inventory",
+        "sales"
+    ],
+    "author": "BONNESANTE MEDICALS",
+    "license": "MIT",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "mongoose": "^6.10.2",
+        "nodemailer": "^6.7.2"
+    },
+    "devDependencies": {
+        "webpack": "^5.98.0",
+        "webpack-cli": "^5.0.1",
+        "webpack-node-externals": "^3.0.0"
+    }
+}

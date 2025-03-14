@@ -1,0 +1,49 @@
+/* Set the overall background color to navy blue */
+body {
+  background-color: navy;
+  color: black; /* Set the default font color to black */
+  font-family: Arial, sans-serif; /* Optional: Set a default font family */
+}
+
+/* Style all buttons to be square-shaped, navy blue with white text */
+button {
+  background-color: white;
+  color: navy;
+  border: 2px solid navy;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 0; /* Make buttons square-shaped */
+}
+
+/* Optional: Add hover effect for buttons */
+button:hover {
+  background-color: navy;
+  color: white;
+}
+
+/* Style tables with navy blue and white */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  color: black; /* Set the table font color to black */
+}
+
+table, th, td {
+  border: 1px solid navy;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: navy;
+  color: white;
+}

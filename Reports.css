@@ -1,0 +1,27 @@
+.reports {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.reports h2 {
+  color: navy;
+}
+
+.report-section {
+  margin-bottom: 20px;
+}
+
+.report-section h3 {
+  color: navy;
+}
+
+.report-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.report-section li {
+  margin-bottom: 10px;
+  color: black;
+}

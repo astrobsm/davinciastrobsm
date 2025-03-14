@@ -1,0 +1,68 @@
+.dashboard {
+  background-color: navy;
+  color: yellow;
+  padding: 20px;
+  min-height: 100vh;
+  text-align: center;
+  position: relative;
+}
+
+.dashboard-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.nav-button {
+  background-color: green;
+  color: yellow;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 0; /* Square-shaped buttons */
+  transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+  background-color: darkgreen;
+}
+
+.dashboard-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.company-logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 150px;
+  height: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left; /* Align buttons to the left */
+}
+
+nav ul li {
+  margin-bottom: 10px; /* Add spacing between buttons */
+}
+
+nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #28a745; /* Change button color to green */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #218838; /* Darker green on hover */
+}

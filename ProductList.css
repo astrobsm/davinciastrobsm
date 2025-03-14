@@ -1,0 +1,53 @@
+.product-list {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.product-list h2 {
+  color: navy;
+}
+
+.product-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product-list li {
+  padding: 5px 0;
+}
+
+.product-list form {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-list form div {
+  margin-bottom: 10px;
+}
+
+.product-list form label {
+  margin-right: 10px;
+}
+
+.product-list form input,
+.product-list form select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.product-list form button {
+  background-color: green;
+  color: yellow;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 0; /* Square-shaped buttons */
+  transition: background-color 0.3s;
+}
+
+.product-list form button:hover {
+  background-color: darkgreen;
+}

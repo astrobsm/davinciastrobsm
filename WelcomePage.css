@@ -1,0 +1,61 @@
+.welcome-container {
+  text-align: center;
+  padding: 50px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.welcome-container p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.welcome-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.welcome-page {
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.company-logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 150px;
+  height: auto;
+}

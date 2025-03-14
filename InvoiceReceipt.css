@@ -1,0 +1,47 @@
+.invoice-receipt {
+  padding: 20px;
+  border: 1px solid navy;
+  background-color: white;
+  color: black;
+  text-align: left;
+  position: relative;
+}
+
+.header {
+  text-align: left;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.company-logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: auto;
+}
+
+.invoice-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.invoice-table th, .invoice-table td {
+  border: 1px solid navy;
+  padding: 10px;
+}
+
+.invoice-table th {
+  background-color: navy;
+  color: white;
+}
+
+.bank-details {
+  margin-top: 20px;
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+}
